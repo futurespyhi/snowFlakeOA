@@ -106,5 +106,16 @@ int main() {
         cout << s << endl;
     }
 
+    // 测试用例3
+    int workHours3 = 24;
+    int dayHours3 = 4;
+    string pattern3 = "08??840";
+    vector<string> result3 = findSchedules(workHours3, dayHours3, pattern3);
+
+    cout << "\nTest Case 3:" << endl;
+    for (const string& s : result3) {
+        cout << s << endl;
+    }
+
     return 0;
 }

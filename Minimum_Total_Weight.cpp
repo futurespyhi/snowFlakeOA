@@ -36,6 +36,11 @@ int findMinWeight(vector<int>& weights, int d) {
 int main() {
     vector<int> weights = {2};
     int d = 1;
-    cout << "Minimum total weight after " << d << " days: " << findMinWeight(weights, d) << endl;
+    cout << "Test for[2], minimum total weight after " << d << " days: " << findMinWeight(weights, d) << endl;
+
+    weights = {30, 20,25};
+    d = 4;
+    cout << "Test for[30, 20, 25], minimum total weight after " << d << " days: " << findMinWeight(weights, d) << endl;
+
     return 0;
 }
